@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: block !important;
+    background-color: #E2EDF8 !important;
+    overflow:  hidden !important;
+    padding: 32px 32px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+  }
+  
+  .custom-container {
+      margin-top: 10px;
+      position: relative;
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center;
+      padding-bottom: 50px;
+      height: 100%;
+      margin-top: 0 !important;
+  }
+  
+  .img1{
+    position: absolute;
+    left: 80px;
+    top: 70px;
+  }
+  
+  .img2{
+    position: absolute;
+    top: 214px;
+    left: 10px;
+  }
+  
+  .img3{
+    position: absolute;
+    top: 214px;
+    right: 10px;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: 'Helvetica Neue';
+  }
+  
+  .description{
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+  }
+  
+  .group1{
+    width: 822px;
+    height: 203px;
+    margin-top: 155px;
+  }
+  
+  .group1 p{
+    line-height: 70px;
+    font-family: 'Helvetica Neue';
+  }
+  
+  
+  .border-group {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ced4da; 
+    border-radius: 10px;
+    padding: 0.5rem;
+    position: relative;
+  }
+  
+  .input-group .form-control {
+    border: none; 
+    border-radius: 15px;
+    padding: 0.5rem; 
+    margin-right: -1px; 
+    text-align: right;
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Helvetica Neue';
+  }
+  
+  .form-control::placeholder {
+    color: #B8B8B8 !important; 
+  }
+  
+  .input-group .form-control:focus{
+    outline: none;
+    box-shadow: none;
+  
+  }
+  
+  .input-group .btn {
+    border: 0;
+    width: 115px;
+    height: 46px; 
+    border-radius: 25px;
+    padding: 0.5rem 1rem; 
+    background-color: #5982AB;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+    line-height: 24px;
+    font-weight: 900;
+  }
+  
+  .input-group .btn:focus{
+    background-color: #5982AB !important;
+  }
+  
+  .vector{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    z-index: 1;
+  }
+  
+  .group2{
+    margin-top: 80px;
+  }
+  
+  .box1{
+    width: 247px;
+    height: 202px;
+    border-radius:20px ;
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #797979;
+  }
+  
+  .box1 p{
+    margin-top: 10px;
+  }
+  
+  .birth{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .line{
+    border-bottom: 1px solid rgba(0, 0, 0 , 0.2);
+    width: 212px;
+    display: inline-block; 
+    padding-bottom: 4px; 
+  }
+  
+  .box1 h2{
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 36px;
+  }
+  
+  .box4{
+    background-image: linear-gradient(to right, #54B5A6 , #3266E3);
+    color: #fff;
+    padding: 53px 54px;
+  }
+  
+  .box4 h2{
+    font-size: 30px;
+  }
+  
+  
+  
