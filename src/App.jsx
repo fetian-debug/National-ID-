@@ -7,6 +7,9 @@ import img2 from './assets/mask.png';
 import birth from './assets/birth.png';
 import location1 from './assets/location.png';
 import gender1 from './assets/gender.png';
+import {Container,Row,Col} from "react-bootstrap";
+
+
 
 const months = {
   '01': 'يناير',
@@ -88,6 +91,7 @@ function App() {
         <div className="img2"><img src={img2} alt=".." /></div>   
         <div className="img3"><img src={img2} alt=".." /></div> 
 
+    <Row>
         <div className="group1">
           <h1>!ممكن نتعرف</h1>
           <p className="description">من أي رقم قومي مصري هتقدر تعرف شوية تفاصيل بسيطة</p>
@@ -111,35 +115,60 @@ function App() {
 
           </div>
         </div>
+        </Row>
 
+
+
+
+        <Row>
         <div className="group2  d-flex flex-column flex-md-row justify-content-md-between">
+          <Col>
           <div className="box1 mx-2 mb-3 mb-md-0">
             <div className="birth"><img src={birth} alt=".." /></div>
             <p>تاريخ الميلاد</p>
             <p className="line"></p>
             <h2>{result.dateOfBirth || 'غير معروف'}</h2>
           </div>
+          </Col>
 
+
+          <Col>
           <div className="box1 mx-2 mb-3 mb-md-0">
             <div className="birth"><img src={location1} alt=".." /></div>
             <p>محل الاقامة</p>
             <p className="line"></p>
             <h2>{result.location || 'غير معروف'}</h2>
           </div>
+          </Col>
 
+          <Col>
           <div className="box1 mx-2 mb-3 mb-md-0">
             <div className="birth"><img src={gender1} alt=".." /></div>
             <p>النوع</p>
             <p className="line"></p>
             <h2>{result.gender || 'غير معروف'}</h2>
           </div>
+          </Col>
+          <Col>
           <div className="box1 box4 mx-2 mb-3 mb-md-0">
 
             <h2> قدرنا نعرف الأتي</h2>
           </div>
+          </Col>
         </div>
+        </Row>
+    
 
+     </div>
+    
+     <Row>
+      <div className='d-flex justify-content-center footer '>
+        <p>contact@engtechnos.com :تقدر تبعتلنا علي الايميل بتاعنا </p>
       </div>
+      </Row>
+
+        
+
     </>
   );
 }
