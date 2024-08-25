@@ -7,7 +7,7 @@ import img2 from './assets/mask.png';
 import birth from './assets/birth.png';
 import location1 from './assets/location.png';
 import gender1 from './assets/gender.png';
-import {Container,Row,Col} from "react-bootstrap";
+import {Row,Col} from "react-bootstrap";
 
 
 
@@ -85,12 +85,11 @@ function App() {
 
   return (
     <>
-
+    <Row>
       <div className="custom-container d-flex justify-content-center" style={{backgroundColor: '#fff', marginTop: '50px'}}>
         <div className="img1"><img src={img1} alt=".." /></div>   
         <div className="img2"><img src={img2} alt=".." /></div>   
         <div className="img3"><img src={img2} alt=".." /></div> 
-
     <Row>
         <div className="group1">
           <h1>!ممكن نتعرف</h1>
@@ -165,6 +164,7 @@ function App() {
       <div className='d-flex justify-content-center footer '>
         <p>contact@engtechnos.com :تقدر تبعتلنا علي الايميل بتاعنا </p>
       </div>
+      </Row>
       </Row>
 
         

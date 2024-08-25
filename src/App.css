@@ -7,7 +7,6 @@
   body{
     display: block !important;
     background-color: #E2EDF8 !important;
-    overflow:  hidden !important;
     padding: 32px 32px;
     font-family: "Baloo Bhaijaan 2", sans-serif;
   }
@@ -186,4 +185,11 @@
   
   .footer{
     color:#3266E3;
+  }
+
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
   }
